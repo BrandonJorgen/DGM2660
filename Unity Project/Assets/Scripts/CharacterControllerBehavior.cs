@@ -6,7 +6,7 @@ public class CharacterControllerBehavior : MonoBehaviour
     private CharacterController controller;
     private Vector3 position;
 
-    public float moveSpeed, rotateSpeed, gravity = 9.81f;
+    public float moveSpeed, rotateSpeed, yRotation, jumpSpeed, gravity = 9.81f;
     public bool tankControls;
     
     void Start()
@@ -16,17 +16,28 @@ public class CharacterControllerBehavior : MonoBehaviour
 
     private void Update()
     {
-        position.y -= gravity;
-
-        if (!tankControls)
+        
+        if (controller.isGrounded)
         {
-            position.x = moveSpeed * Input.GetAxis("Horizontal");
-            position.z = moveSpeed * Input.GetAxis("Vertical");
+            if (!tankControls)
+            {
+                position.Set(moveSpeed * Input.GetAxis("Horizontal"), 0, moveSpeed * Input.GetAxis("Vertical"));
+            }
+            else
+            {
+                yRotation += rotateSpeed * Input.GetAxis("Horizontal");
+                transform.eulerAngles = new Vector3(0, yRotation, 0);
+                position.Set(0, 0, moveSpeed * Input.GetAxis("Vertical"));
+                position = transform.TransformDirection(0, 0, moveSpeed * Input.GetAxis("Vertical"));
+            }
+            
+            if (Input.GetButtonDown("Jump"))
+            {
+                position.y = jumpSpeed;
+            }
         }
-        else
-        {
-            transform.Rotate(0, rotateSpeed * Input.GetAxis("Horizontal"), 0);
-        }
+        
+        position.y -= gravity * Time.deltaTime;
         
         controller.Move(position * Time.deltaTime);
     }

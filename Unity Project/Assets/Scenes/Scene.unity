@@ -247,8 +247,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 5
   rotateSpeed: 0.75
+  yRotation: 0
+  jumpSpeed: 10
   gravity: 9.81
-  tankControls: 1
+  tankControls: 0
 --- !u!143 &229544528
 CharacterController:
   m_ObjectHideFlags: 0
@@ -333,7 +335,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 229544526}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -0.17}
+  m_LocalPosition: {x: 0, y: 0.58, z: -0.17}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
