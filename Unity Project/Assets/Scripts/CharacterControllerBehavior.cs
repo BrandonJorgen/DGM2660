@@ -5,9 +5,10 @@ public class CharacterControllerBehavior : MonoBehaviour
 {
     private CharacterController controller;
     private Vector3 position;
+    private float yRotation, extraJumpCount = 0f, gravity = 9.81f;
 
-    public float moveSpeed, rotateSpeed, yRotation, jumpSpeed, extraJumpCount = 0f, extraJumpCountMax =1f, gravity = 9.81f;
-    public bool tankControls;
+    public float moveSpeed, rotateSpeed, jumpSpeed, extraJumpCountMax = 1f;
+    public bool tankControls, shrunk;
     
     void Start()
     {
@@ -16,7 +17,6 @@ public class CharacterControllerBehavior : MonoBehaviour
 
     private void Update()
     {
-        
         if (controller.isGrounded)
         {
             if (!tankControls)
@@ -38,13 +38,16 @@ public class CharacterControllerBehavior : MonoBehaviour
                 position.y = jumpSpeed;
             }
 
-            if (Input.GetButton("Fire1"))
+            if (!shrunk)
             {
-                controller.height = 0.5f;
-            }
-            else
-            {
-                controller.height = 1;
+                if (Input.GetButton("Fire1"))
+                {
+                    controller.height = controller.height / 2;
+                }
+                else
+                {
+                    controller.height = 1;
+                }
             }
         }
         else
@@ -61,5 +64,19 @@ public class CharacterControllerBehavior : MonoBehaviour
         
         position.y -= gravity * Time.deltaTime;
         controller.Move(position * Time.deltaTime);
+    }
+
+    public void ShrinkController()
+    {
+        if (!shrunk)
+        {
+            shrunk = true;
+        }
+        
+        if (shrunk)
+        {
+            controller.radius = controller.radius / 2;
+            controller.height = controller.height / 2;
+        }
     }
 }
