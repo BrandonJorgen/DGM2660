@@ -8,7 +8,7 @@ public class CharacterControllerBehavior : MonoBehaviour
     private float yRotation, extraJumpCount = 0f, gravity = 9.81f;
 
     public float moveSpeed, rotateSpeed, jumpSpeed, extraJumpCountMax = 1f;
-    public bool tankControls, shrunk;
+    public bool tankControls, shrunk, canMove;
     
     void Start()
     {
@@ -17,53 +17,28 @@ public class CharacterControllerBehavior : MonoBehaviour
 
     private void Update()
     {
-        if (controller.isGrounded)
+        if (canMove)
         {
-            if (!tankControls)
+            if (controller.isGrounded)
             {
-                position.Set(moveSpeed * Input.GetAxis("Horizontal"), 0, moveSpeed * Input.GetAxis("Vertical"));
-            }
-            else
-            {
-                yRotation += rotateSpeed * Input.GetAxis("Horizontal");
-                transform.eulerAngles = new Vector3(0, yRotation, 0);
-                position.Set(0, 0, moveSpeed * Input.GetAxis("Vertical"));
-                position = transform.TransformDirection(0, 0, moveSpeed * Input.GetAxis("Vertical"));
-            }
-
-            extraJumpCount = 0;
-            
-            if (Input.GetButtonDown("Jump"))
-            {
-                position.y = jumpSpeed;
-            }
-
-            if (!shrunk)
-            {
-                if (Input.GetButton("Fire1"))
+                if (!tankControls)
                 {
-                    controller.height = controller.height / 2;
+                    position.Set(moveSpeed * Input.GetAxis("Horizontal"), 0, moveSpeed * Input.GetAxis("Vertical"));
                 }
                 else
                 {
-                    controller.height = 1;
+                    yRotation += rotateSpeed * Input.GetAxis("Horizontal");
+                    transform.eulerAngles = new Vector3(0, yRotation, 0);
+                    position.Set(0, 0, moveSpeed * Input.GetAxis("Vertical"));
+                    position = transform.TransformDirection(0, 0, moveSpeed * Input.GetAxis("Vertical"));
                 }
+
+                extraJumpCount = 0;
             }
-        }
-        else
-        {
-            if (Input.GetButtonDown("Jump"))
-            {
-                if (extraJumpCount < extraJumpCountMax)
-                {
-                    position.y = jumpSpeed;
-                    extraJumpCount++;
-                }
-            }
-        }
         
-        position.y -= gravity * Time.deltaTime;
-        controller.Move(position * Time.deltaTime);
+            position.y -= gravity * Time.deltaTime;
+            controller.Move(position * Time.deltaTime);
+        }
     }
 
     public void ShrinkController()
@@ -77,6 +52,63 @@ public class CharacterControllerBehavior : MonoBehaviour
         {
             controller.radius = controller.radius / 2;
             controller.height = controller.height / 2;
+        }
+    }
+
+    public void StartStopMovement()
+    {
+        if (canMove)
+        {
+            canMove = false;
+        }
+        else
+        {
+            canMove = true;
+        }
+    }
+
+    public void Jump()
+    {
+        if (controller.isGrounded)
+        {
+            position.y = jumpSpeed;
+        }
+        else
+        {
+            if (Input.GetButtonDown("Jump"))
+            {
+                if (extraJumpCount < extraJumpCountMax)
+                {
+                    position.y = jumpSpeed;
+                    extraJumpCount++;
+                }
+            }
+        }
+        controller.Move(position * Time.deltaTime);
+    }
+
+    public void CrouchDown()
+    {
+        if (controller.isGrounded)
+        {
+            controller.height = controller.height / 2;
+        }
+    }
+
+    public void CrouchUp()
+    {
+        controller.height = 1;
+    }
+
+    public void SetTankControls()
+    {
+        if (tankControls)
+        {
+            tankControls = false;
+        }
+        else
+        {
+            tankControls = true;
         }
     }
 }
