@@ -6,7 +6,7 @@ public class CharacterControllerBehavior : MonoBehaviour
     private CharacterController controller;
     private Vector3 position;
 
-    public float moveSpeed, rotateSpeed, yRotation, jumpSpeed, gravity = 9.81f;
+    public float moveSpeed, rotateSpeed, yRotation, jumpSpeed, extraJumpCount = 0f, extraJumpCountMax =1f, gravity = 9.81f;
     public bool tankControls;
     
     void Start()
@@ -30,10 +30,23 @@ public class CharacterControllerBehavior : MonoBehaviour
                 position.Set(0, 0, moveSpeed * Input.GetAxis("Vertical"));
                 position = transform.TransformDirection(0, 0, moveSpeed * Input.GetAxis("Vertical"));
             }
+
+            extraJumpCount = 0;
             
             if (Input.GetButtonDown("Jump"))
             {
                 position.y = jumpSpeed;
+            }
+        }
+        else
+        {
+            if (Input.GetButtonDown("Jump"))
+            {
+                if (extraJumpCount < extraJumpCountMax)
+                {
+                    position.y = jumpSpeed;
+                    extraJumpCount++;
+                }
             }
         }
         
