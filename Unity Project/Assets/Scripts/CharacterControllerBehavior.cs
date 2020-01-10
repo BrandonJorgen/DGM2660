@@ -37,6 +37,15 @@ public class CharacterControllerBehavior : MonoBehaviour
             {
                 position.y = jumpSpeed;
             }
+
+            if (Input.GetButton("Fire1"))
+            {
+                controller.height = 0.5f;
+            }
+            else
+            {
+                controller.height = 1;
+            }
         }
         else
         {
@@ -51,7 +60,6 @@ public class CharacterControllerBehavior : MonoBehaviour
         }
         
         position.y -= gravity * Time.deltaTime;
-        
         controller.Move(position * Time.deltaTime);
     }
 }
