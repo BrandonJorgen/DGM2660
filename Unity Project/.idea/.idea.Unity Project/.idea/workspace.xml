@@ -31,7 +31,7 @@
     <session id="699080115">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="1" />
@@ -65,15 +65,14 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/IDMatch.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+            <state relative-caret-position="330">
+              <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
               <folding>
-                <marker date="1579100648000" expanded="true" signature="6:52" ph="..." />
-                <marker date="1579100648000" expanded="true" signature="90:866" ph="{...}" />
-                <marker date="1579100648000" expanded="true" signature="180:864" ph="{...}" />
-                <marker date="1579100648000" expanded="true" signature="332:586" ph="/* foreach (var ID in IDNameObj) ... */" />
-                <marker date="1579100648000" expanded="true" signature="637:858" ph="{...}" />
-                <marker date="1579100648000" expanded="true" signature="692:848" ph="{...}" />
+                <marker date="1579100690000" expanded="true" signature="6:52" ph="..." />
+                <marker date="1579100690000" expanded="true" signature="90:578" ph="{...}" />
+                <marker date="1579100690000" expanded="true" signature="180:576" ph="{...}" />
+                <marker date="1579100690000" expanded="true" signature="369:570" ph="{...}" />
+                <marker date="1579100690000" expanded="true" signature="414:560" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -232,12 +231,12 @@
       <workItem from="1578615974559" duration="621000" />
       <workItem from="1578617352313" duration="3957000" />
       <workItem from="1578694266945" duration="6288000" />
-      <workItem from="1579097770647" duration="2845000" />
+      <workItem from="1579097770647" duration="3175000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13711000" />
+    <option name="totallyTimeSpent" value="14041000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -250,7 +249,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-848" width="1096" height="1936" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.25482625" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -418,15 +416,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/IDMatch.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+        <state relative-caret-position="330">
+          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
           <folding>
-            <marker date="1579100648000" expanded="true" signature="6:52" ph="..." />
-            <marker date="1579100648000" expanded="true" signature="90:866" ph="{...}" />
-            <marker date="1579100648000" expanded="true" signature="180:864" ph="{...}" />
-            <marker date="1579100648000" expanded="true" signature="332:586" ph="/* foreach (var ID in IDNameObj) ... */" />
-            <marker date="1579100648000" expanded="true" signature="637:858" ph="{...}" />
-            <marker date="1579100648000" expanded="true" signature="692:848" ph="{...}" />
+            <marker date="1579100690000" expanded="true" signature="6:52" ph="..." />
+            <marker date="1579100690000" expanded="true" signature="90:578" ph="{...}" />
+            <marker date="1579100690000" expanded="true" signature="180:576" ph="{...}" />
+            <marker date="1579100690000" expanded="true" signature="369:570" ph="{...}" />
+            <marker date="1579100690000" expanded="true" signature="414:560" ph="{...}" />
           </folding>
         </state>
       </provider>
