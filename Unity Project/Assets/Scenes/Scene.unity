@@ -356,6 +356,7 @@ GameObject:
   - component: {fileID: 228467695}
   - component: {fileID: 228467694}
   - component: {fileID: 228467693}
+  - component: {fileID: 228467697}
   m_Layer: 0
   m_Name: Standing Height Test
   m_TagString: Untagged
@@ -371,7 +372,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 228467692}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -435,6 +436,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &228467697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 228467692}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1799a809c1d78264fb3aa368609ee8b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IDNameObj: {fileID: 11400000, guid: 77b385254cd7e3948b0d96e14653a807, type: 2}
 --- !u!1 &273513829
 GameObject:
   m_ObjectHideFlags: 0
@@ -582,6 +596,8 @@ GameObject:
   - component: {fileID: 448162702}
   - component: {fileID: 448162701}
   - component: {fileID: 448162707}
+  - component: {fileID: 448162708}
+  - component: {fileID: 448162709}
   m_Layer: 0
   m_Name: CharacterControllerTester
   m_TagString: Untagged
@@ -758,6 +774,34 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &448162708
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 448162700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b62ceac8c421cb747903a9a2498e482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IDNameObj:
+  - {fileID: 11400000, guid: cbbf96e421a6d6b43969e66b74a45adf, type: 2}
+  - {fileID: 11400000, guid: 77b385254cd7e3948b0d96e14653a807, type: 2}
+--- !u!114 &448162709
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 448162700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1799a809c1d78264fb3aa368609ee8b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IDNameObj: {fileID: 11400000, guid: 6f841954e6e656d4ca23d53f7ee209d8, type: 2}
 --- !u!1 &727682999
 GameObject:
   m_ObjectHideFlags: 0
@@ -983,6 +1027,7 @@ GameObject:
   - component: {fileID: 890626314}
   - component: {fileID: 890626313}
   - component: {fileID: 890626312}
+  - component: {fileID: 890626316}
   m_Layer: 0
   m_Name: Crouch Height Test
   m_TagString: Untagged
@@ -998,7 +1043,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 890626311}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -1062,6 +1107,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &890626316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 890626311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1799a809c1d78264fb3aa368609ee8b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IDNameObj: {fileID: 11400000, guid: cbbf96e421a6d6b43969e66b74a45adf, type: 2}
 --- !u!1 &941409771
 GameObject:
   m_ObjectHideFlags: 0

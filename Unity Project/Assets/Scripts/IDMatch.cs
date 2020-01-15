@@ -1,17 +1,22 @@
-﻿using UnityEngine;
+﻿using System.Collections.Generic;
+using UnityEngine;
 
 public class IDMatch : MonoBehaviour
 {
-    public IDName nameIDObj;
+    public List<IDName> IDNameObj;
     
     private void OnTriggerEnter(Collider other)
     {
-        var nameIdObj = other.GetComponent<IDName>().nameIDObj;
+        var nameIdObj = other.GetComponent<IDBehavior>().IDNameObj;
         if (nameIdObj == null) return;
         var otherNameId = nameIdObj;
-        if (nameIDObj == otherNameId)
+
+        foreach (var ID in IDNameObj)
         {
-            //do work
+            if (ID == otherNameId)
+            {
+                Debug.Log(otherNameId);
+            }
         }
     }
 }
