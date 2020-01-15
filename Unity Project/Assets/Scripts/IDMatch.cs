@@ -15,7 +15,8 @@ public class IDMatch : MonoBehaviour
         {
             if (ID == otherNameId)
             {
-                Debug.Log(otherNameId);
+                Debug.Log(otherNameId + " Matches: " + ID + " and is attached to: " + other);
+                return;
             }
         }
     }
