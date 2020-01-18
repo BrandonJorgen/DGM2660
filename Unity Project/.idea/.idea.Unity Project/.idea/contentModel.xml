@@ -9,6 +9,7 @@
         <e p="Scripts" t="Include">
           <e p="CharacterControllerBehavior.cs" t="Include" />
           <e p="ControlsEvent.cs" t="Include" />
+          <e p="Debugger.cs" t="Include" />
           <e p="IDBehavior.cs" t="Include" />
           <e p="IDMatch.cs" t="Include" />
           <e p="IDName.cs" t="Include" />

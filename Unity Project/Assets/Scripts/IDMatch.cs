@@ -3,20 +3,24 @@ using UnityEngine;
 
 public class IDMatch : MonoBehaviour
 {
-    public List<IDName> IDNameObj;
+    public List<IDName> IDNameList;
     
     private void OnTriggerEnter(Collider other)
     {
-        var nameIdObj = other.GetComponent<IDBehavior>().IDNameObj;
-        if (nameIdObj == null) return;
-        var otherNameId = nameIdObj;
+        var triggerObj = other.GetComponent<IDBehavior>();
+        if (triggerObj == null) return;
+        var otherIDNameList = triggerObj.IDNameList;
 
-        foreach (var ID in IDNameObj)
+        foreach (var otherID in otherIDNameList)
         {
-            if (ID == otherNameId)
+            foreach (var ID in IDNameList)
             {
-                Debug.Log(otherNameId + " Matches: " + ID + " and is attached to: " + other);
-                return;
+                if (ID == otherID)
+                {
+                    Debug.Log(otherID + " Matches: " + ID + " and is attached to: " + other);
+                    triggerObj.Execute();
+                    return;
+                }
             }
         }
     }

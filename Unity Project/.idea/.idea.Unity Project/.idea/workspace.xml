@@ -33,29 +33,29 @@
         <counts>
           <entry key="project.closed" value="3" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.5" value="2" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="2456" />
+          <entry key="cs" value="2826" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="2456" />
+          <entry key="C#" value="2826" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cs" value="7" />
+          <entry key="cs" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="C#" value="7" />
+          <entry key="C#" value="8" />
         </counts>
       </usages-collector>
     </session>
@@ -65,14 +65,15 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/IDMatch.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+            <state relative-caret-position="390">
+              <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
               <folding>
-                <marker date="1579100690000" expanded="true" signature="6:52" ph="..." />
-                <marker date="1579100690000" expanded="true" signature="90:578" ph="{...}" />
-                <marker date="1579100690000" expanded="true" signature="180:576" ph="{...}" />
-                <marker date="1579100690000" expanded="true" signature="369:570" ph="{...}" />
-                <marker date="1579100690000" expanded="true" signature="414:560" ph="{...}" />
+                <marker date="1579367756000" expanded="true" signature="6:52" ph="..." />
+                <marker date="1579367756000" expanded="true" signature="90:723" ph="{...}" />
+                <marker date="1579367756000" expanded="true" signature="181:721" ph="{...}" />
+                <marker date="1579367756000" expanded="true" signature="389:715" ph="{...}" />
+                <marker date="1579367756000" expanded="true" signature="442:705" ph="{...}" />
+                <marker date="1579367756000" expanded="true" signature="491:691" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -81,10 +82,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/IDBehavior.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+            <state relative-caret-position="195">
+              <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
               <folding>
-                <marker date="1579098678000" expanded="true" signature="59:92" ph="{...}" />
+                <marker date="1579366762000" expanded="true" signature="6:78" ph="..." />
+                <marker date="1579366762000" expanded="true" signature="119:265" ph="{...}" />
+                <marker date="1579366762000" expanded="true" signature="220:263" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -96,19 +99,7 @@
             <state relative-caret-position="90">
               <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
               <folding>
-                <marker date="1579098166000" expanded="true" signature="76:102" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/TriggerEventBehavior.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-              <folding>
-                <marker date="1579098684000" expanded="true" signature="69:78" ph="{...}" />
+                <marker date="1579366244000" expanded="true" signature="76:85" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -128,6 +119,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TriggerEventBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterControllerBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/IDBehavior.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Debugger.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -136,9 +128,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/ControlsEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterControllerBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/IdentityBehavior.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/IDBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TriggerEventBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/IDName.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/IDBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Debugger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/IDMatch.cs" />
       </list>
     </option>
@@ -171,12 +164,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
-      </pane>
       <pane id="FileSystemExplorer" />
       <pane id="UnityExplorer">
         <option name="show-hidden-items" value="false" />
+      </pane>
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
       </pane>
     </panes>
   </component>
@@ -232,11 +225,12 @@
       <workItem from="1578617352313" duration="3957000" />
       <workItem from="1578694266945" duration="6288000" />
       <workItem from="1579097770647" duration="3175000" />
+      <workItem from="1579365452609" duration="3584000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14041000" />
+    <option name="totallyTimeSpent" value="17625000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -249,6 +243,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-848" width="1096" height="1936" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.25482625" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -335,31 +330,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1095">
           <caret line="73" column="35" selection-start-line="73" selection-start-column="35" selection-end-line="73" selection-end-column="35" />
-          <folding>
-            <marker date="1578700366000" expanded="true" signature="413:483" ph="{...}" />
-            <marker date="1578700366000" expanded="true" signature="510:1364" ph="{...}" />
-            <marker date="1578700366000" expanded="true" signature="537:1358" ph="{...}" />
-            <marker date="1578700366000" expanded="true" signature="586:1231" ph="{...}" />
-            <marker date="1578700366000" expanded="true" signature="635:788" ph="{...}" />
-            <marker date="1578700366000" expanded="true" signature="809:1180" ph="{...}" />
-            <marker date="1578700366000" expanded="true" signature="1400:1639" ph="{...}" />
-            <marker date="1578700366000" expanded="true" signature="1427:1474" ph="{...}" />
-            <marker date="1578700366000" expanded="true" signature="1503:1633" ph="{...}" />
-            <marker date="1578700366000" expanded="true" signature="1676:1819" ph="{...}" />
-            <marker date="1578700366000" expanded="true" signature="1703:1752" ph="{...}" />
-            <marker date="1578700366000" expanded="true" signature="1765:1813" ph="{...}" />
-            <marker date="1578700366000" expanded="true" signature="1843:2278" ph="{...}" />
-            <marker date="1578700366000" expanded="true" signature="1884:1940" ph="{...}" />
-            <marker date="1578700366000" expanded="true" signature="1953:2220" ph="{...}" />
-            <marker date="1578700366000" expanded="true" signature="2008:2210" ph="{...}" />
-            <marker date="1578700366000" expanded="true" signature="2078:2196" ph="{...}" />
-            <marker date="1578700366000" expanded="true" signature="2308:2430" ph="{...}" />
-            <marker date="1578700366000" expanded="true" signature="2349:2424" ph="{...}" />
-            <marker date="1578700366000" expanded="true" signature="2458:2501" ph="{...}" />
-            <marker date="1578700366000" expanded="true" signature="2536:2694" ph="{...}" />
-            <marker date="1578700366000" expanded="true" signature="2568:2622" ph="{...}" />
-            <marker date="1578700366000" expanded="true" signature="2635:2688" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -367,29 +337,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-          <folding>
-            <marker date="1578700104000" expanded="true" signature="6:44" ph="..." />
-            <marker date="1578700104000" expanded="true" signature="182:507" ph="{...}" />
-            <marker date="1578700104000" expanded="true" signature="233:285" ph="{...}" />
-            <marker date="1578700104000" expanded="true" signature="337:395" ph="{...}" />
-            <marker date="1578700104000" expanded="true" signature="445:501" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/IdentityBehavior.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/IdentityBehavior.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/TriggerEventBehavior.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Debugger.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
           <folding>
-            <marker date="1579098684000" expanded="true" signature="69:78" ph="{...}" />
+            <marker date="1579367480000" expanded="true" signature="78:175" ph="{...}" />
+            <marker date="1579367480000" expanded="true" signature="109:173" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -399,31 +364,34 @@
         <state relative-caret-position="90">
           <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
           <folding>
-            <marker date="1579098166000" expanded="true" signature="76:102" ph="{...}" />
+            <marker date="1579366244000" expanded="true" signature="76:85" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/IDBehavior.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        <state relative-caret-position="195">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
           <folding>
-            <marker date="1579098678000" expanded="true" signature="59:92" ph="{...}" />
+            <marker date="1579366762000" expanded="true" signature="6:78" ph="..." />
+            <marker date="1579366762000" expanded="true" signature="119:265" ph="{...}" />
+            <marker date="1579366762000" expanded="true" signature="220:263" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/IDMatch.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        <state relative-caret-position="390">
+          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
           <folding>
-            <marker date="1579100690000" expanded="true" signature="6:52" ph="..." />
-            <marker date="1579100690000" expanded="true" signature="90:578" ph="{...}" />
-            <marker date="1579100690000" expanded="true" signature="180:576" ph="{...}" />
-            <marker date="1579100690000" expanded="true" signature="369:570" ph="{...}" />
-            <marker date="1579100690000" expanded="true" signature="414:560" ph="{...}" />
+            <marker date="1579367756000" expanded="true" signature="6:52" ph="..." />
+            <marker date="1579367756000" expanded="true" signature="90:723" ph="{...}" />
+            <marker date="1579367756000" expanded="true" signature="181:721" ph="{...}" />
+            <marker date="1579367756000" expanded="true" signature="389:715" ph="{...}" />
+            <marker date="1579367756000" expanded="true" signature="442:705" ph="{...}" />
+            <marker date="1579367756000" expanded="true" signature="491:691" ph="{...}" />
           </folding>
         </state>
       </provider>
