@@ -3,8 +3,8 @@
 [CreateAssetMenu]
 public class Debugger : ScriptableObject
 {
-    public void EventDebug()
+    public void EventDebug(string message)
     {
-        Debug.Log(this + " Event has been called");
+        Debug.Log(message);
     }
 }
