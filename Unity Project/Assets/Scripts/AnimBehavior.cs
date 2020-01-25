@@ -9,6 +9,7 @@ public class AnimBehavior : StateMachineBehaviour
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         stateEnterEvent.Invoke();
+        Debug.Log(stateInfo.speed + " " + stateInfo.length + " " + stateInfo.loop);
     }
 
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
