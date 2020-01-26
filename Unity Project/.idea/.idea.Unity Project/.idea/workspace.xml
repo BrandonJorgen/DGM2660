@@ -12,35 +12,102 @@
     <session id="699080115">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.5" value="2" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="225" />
+          <entry key="cs" value="667" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="225" />
+          <entry key="C#" value="667" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="cs" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="C#" value="2" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/AnimBehavior.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="37" column="1" lean-forward="true" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
+            <state relative-caret-position="360">
+              <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
               <folding>
-                <marker date="1579973920000" expanded="true" signature="6:44" ph="..." />
-                <marker date="1579973920000" expanded="true" signature="95:1460" ph="{...}" />
-                <marker date="1579973920000" expanded="true" signature="350:480" ph="{...}" />
-                <marker date="1579973920000" expanded="true" signature="486:1458" ph="/* OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks ... */" />
+                <marker date="1580061246000" expanded="false" signature="6:44" ph="..." />
+                <marker date="1580061246000" expanded="true" signature="95:1018" ph="{...}" />
+                <marker date="1580061246000" expanded="true" signature="384:514" ph="{...}" />
+                <marker date="1580061246000" expanded="true" signature="717:764" ph="{...}" />
+                <marker date="1580061246000" expanded="true" signature="971:1016" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/CharacterControllerBehavior.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="885">
+              <caret line="59" column="20" selection-start-line="59" selection-start-column="20" selection-end-line="59" selection-end-column="20" />
+              <folding>
+                <marker date="1578700366000" expanded="true" signature="124:2696" ph="{...}" />
+                <marker date="1578700366000" expanded="true" signature="413:483" ph="{...}" />
+                <marker date="1578700366000" expanded="true" signature="510:1364" ph="{...}" />
+                <marker date="1578700366000" expanded="true" signature="537:1358" ph="{...}" />
+                <marker date="1578700366000" expanded="true" signature="586:1231" ph="{...}" />
+                <marker date="1578700366000" expanded="true" signature="635:788" ph="{...}" />
+                <marker date="1578700366000" expanded="true" signature="809:1180" ph="{...}" />
+                <marker date="1578700366000" expanded="true" signature="1400:1639" ph="{...}" />
+                <marker date="1578700366000" expanded="true" signature="1427:1474" ph="{...}" />
+                <marker date="1578700366000" expanded="true" signature="1503:1633" ph="{...}" />
+                <marker date="1578700366000" expanded="true" signature="1676:1819" ph="{...}" />
+                <marker date="1578700366000" expanded="true" signature="1703:1752" ph="{...}" />
+                <marker date="1578700366000" expanded="true" signature="1765:1813" ph="{...}" />
+                <marker date="1578700366000" expanded="true" signature="1843:2278" ph="{...}" />
+                <marker date="1578700366000" expanded="true" signature="1884:1940" ph="{...}" />
+                <marker date="1578700366000" expanded="true" signature="1953:2220" ph="{...}" />
+                <marker date="1578700366000" expanded="true" signature="2008:2210" ph="{...}" />
+                <marker date="1578700366000" expanded="true" signature="2078:2196" ph="{...}" />
+                <marker date="1578700366000" expanded="true" signature="2308:2430" ph="{...}" />
+                <marker date="1578700366000" expanded="true" signature="2349:2424" ph="{...}" />
+                <marker date="1578700366000" expanded="true" signature="2458:2501" ph="{...}" />
+                <marker date="1578700366000" expanded="true" signature="2536:2694" ph="{...}" />
+                <marker date="1578700366000" expanded="true" signature="2568:2622" ph="{...}" />
+                <marker date="1578700366000" expanded="true" signature="2635:2688" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/AnimTriggerBehavior.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="660">
+              <caret line="44" column="1" lean-forward="true" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
+              <folding>
+                <marker date="1580063702000" expanded="true" signature="6:44" ph="..." />
+                <marker date="1580063702000" expanded="true" signature="131:945" ph="{...}" />
+                <marker date="1580063702000" expanded="true" signature="273:330" ph="{...}" />
+                <marker date="1580063702000" expanded="true" signature="357:943" ph="{...}" />
+                <marker date="1580063702000" expanded="true" signature="400:453" ph="{...}" />
+                <marker date="1580063702000" expanded="true" signature="466:937" ph="{...}" />
+                <marker date="1580063702000" expanded="true" signature="517:581" ph="{...}" />
+                <marker date="1580063702000" expanded="true" signature="627:691" ph="{...}" />
+                <marker date="1580063702000" expanded="true" signature="745:809" ph="{...}" />
+                <marker date="1580063702000" expanded="true" signature="863:927" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -52,6 +119,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnimTriggerBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/IDMatch.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/IDName.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ControlsEvent.cs" root0="FORCE_HIGHLIGHTING" />
@@ -74,6 +142,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/IDMatch.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Debugger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AnimBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AnimTriggerBehavior.cs" />
       </list>
     </option>
   </component>
@@ -105,13 +174,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="FileSystemExplorer" />
       <pane id="UnityExplorer">
         <option name="show-hidden-items" value="false" />
       </pane>
       <pane id="SolutionExplorer">
         <option name="show-all-files" value="false" />
       </pane>
+      <pane id="FileSystemExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -170,11 +239,12 @@
       <workItem from="1579365452609" duration="4420000" />
       <workItem from="1579807361624" duration="1515000" />
       <workItem from="1579970455941" duration="3680000" />
+      <workItem from="1580060967701" duration="3255000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3680000" />
+    <option name="totallyTimeSpent" value="6935000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -188,17 +258,9 @@
   <component name="ToolWindowManager">
     <frame x="1912" y="-848" width="1096" height="1936" extended-state="6" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25482625" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="NuGet" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Unity" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Unit Tests" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -206,12 +268,20 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Errors In Solution" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Unit Tests Coverage" />
+      <window_info anchor="bottom" id="NuGet" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Unity" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unit Tests" order="12" />
+      <window_info anchor="bottom" id="Terminal" order="13" />
+      <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="5" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,13 +331,66 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/AnimBehavior.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="1" lean-forward="true" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
+        <state relative-caret-position="360">
+          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
           <folding>
-            <marker date="1579973920000" expanded="true" signature="6:44" ph="..." />
-            <marker date="1579973920000" expanded="true" signature="95:1460" ph="{...}" />
-            <marker date="1579973920000" expanded="true" signature="350:480" ph="{...}" />
-            <marker date="1579973920000" expanded="true" signature="486:1458" ph="/* OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks ... */" />
+            <marker date="1580061246000" expanded="false" signature="6:44" ph="..." />
+            <marker date="1580061246000" expanded="true" signature="95:1018" ph="{...}" />
+            <marker date="1580061246000" expanded="true" signature="384:514" ph="{...}" />
+            <marker date="1580061246000" expanded="true" signature="717:764" ph="{...}" />
+            <marker date="1580061246000" expanded="true" signature="971:1016" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CharacterControllerBehavior.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="885">
+          <caret line="59" column="20" selection-start-line="59" selection-start-column="20" selection-end-line="59" selection-end-column="20" />
+          <folding>
+            <marker date="1578700366000" expanded="true" signature="124:2696" ph="{...}" />
+            <marker date="1578700366000" expanded="true" signature="413:483" ph="{...}" />
+            <marker date="1578700366000" expanded="true" signature="510:1364" ph="{...}" />
+            <marker date="1578700366000" expanded="true" signature="537:1358" ph="{...}" />
+            <marker date="1578700366000" expanded="true" signature="586:1231" ph="{...}" />
+            <marker date="1578700366000" expanded="true" signature="635:788" ph="{...}" />
+            <marker date="1578700366000" expanded="true" signature="809:1180" ph="{...}" />
+            <marker date="1578700366000" expanded="true" signature="1400:1639" ph="{...}" />
+            <marker date="1578700366000" expanded="true" signature="1427:1474" ph="{...}" />
+            <marker date="1578700366000" expanded="true" signature="1503:1633" ph="{...}" />
+            <marker date="1578700366000" expanded="true" signature="1676:1819" ph="{...}" />
+            <marker date="1578700366000" expanded="true" signature="1703:1752" ph="{...}" />
+            <marker date="1578700366000" expanded="true" signature="1765:1813" ph="{...}" />
+            <marker date="1578700366000" expanded="true" signature="1843:2278" ph="{...}" />
+            <marker date="1578700366000" expanded="true" signature="1884:1940" ph="{...}" />
+            <marker date="1578700366000" expanded="true" signature="1953:2220" ph="{...}" />
+            <marker date="1578700366000" expanded="true" signature="2008:2210" ph="{...}" />
+            <marker date="1578700366000" expanded="true" signature="2078:2196" ph="{...}" />
+            <marker date="1578700366000" expanded="true" signature="2308:2430" ph="{...}" />
+            <marker date="1578700366000" expanded="true" signature="2349:2424" ph="{...}" />
+            <marker date="1578700366000" expanded="true" signature="2458:2501" ph="{...}" />
+            <marker date="1578700366000" expanded="true" signature="2536:2694" ph="{...}" />
+            <marker date="1578700366000" expanded="true" signature="2568:2622" ph="{...}" />
+            <marker date="1578700366000" expanded="true" signature="2635:2688" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/AnimTriggerBehavior.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="44" column="1" lean-forward="true" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
+          <folding>
+            <marker date="1580063702000" expanded="true" signature="6:44" ph="..." />
+            <marker date="1580063702000" expanded="true" signature="131:945" ph="{...}" />
+            <marker date="1580063702000" expanded="true" signature="273:330" ph="{...}" />
+            <marker date="1580063702000" expanded="true" signature="357:943" ph="{...}" />
+            <marker date="1580063702000" expanded="true" signature="400:453" ph="{...}" />
+            <marker date="1580063702000" expanded="true" signature="466:937" ph="{...}" />
+            <marker date="1580063702000" expanded="true" signature="517:581" ph="{...}" />
+            <marker date="1580063702000" expanded="true" signature="627:691" ph="{...}" />
+            <marker date="1580063702000" expanded="true" signature="745:809" ph="{...}" />
+            <marker date="1580063702000" expanded="true" signature="863:927" ph="{...}" />
           </folding>
         </state>
       </provider>

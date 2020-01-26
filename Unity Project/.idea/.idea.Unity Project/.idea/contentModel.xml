@@ -8,6 +8,7 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="AnimBehavior.cs" t="Include" />
+          <e p="AnimTriggerBehavior.cs" t="Include" />
           <e p="CharacterControllerBehavior.cs" t="Include" />
           <e p="ControlsEvent.cs" t="Include" />
           <e p="Debugger.cs" t="Include" />
