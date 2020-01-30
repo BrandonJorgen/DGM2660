@@ -51,7 +51,7 @@ public class CharacterControllerBehavior : MonoBehaviour
         if (shrunk)
         {
             controller.radius = controller.radius / 2;
-            controller.height = controller.height / 2;
+            controller.height = 0.5f;
         }
     }
 
@@ -91,7 +91,7 @@ public class CharacterControllerBehavior : MonoBehaviour
     {
         if (controller.isGrounded)
         {
-            controller.height = controller.height / 2;
+            controller.height = 0.5f;
         }
     }
 
