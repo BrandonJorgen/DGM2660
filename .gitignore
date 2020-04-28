@@ -60,3 +60,7 @@ crashlytics-build.properties
 
 
 *.json
+
+*.spp
+
+*.painter_lock
